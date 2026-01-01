@@ -1,13 +1,4 @@
-const posts = [ 
-    { 
-        username: 'Ray', 
-        title: 'Post1'
-    }, 
-    { 
-        username: 'Jim', 
-        title: 'Post2'
-    }
-];  
+const posts = require('')
 
 const authFunction = (req, res) => { 
     res.json(posts); 
