@@ -14,6 +14,6 @@ app.get("/", (req, res) => {
   res.json({
     Server: "Running Successfully",
   });
-});
+}); 
 
 module.exports = app;
